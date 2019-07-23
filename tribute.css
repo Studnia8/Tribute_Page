@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, tt, var, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	background-color: white;
+}
+
+.container{
+	max-width: auto;
+}
+
+.top{
+	width: 100%;
+	margin-top: -50px;
+	background-color: gray;
+	position: fixed;
+}
+
+.trib-bimba{
+	background-color: silver;
+	margin-top: 50px;
+}
+
+.left-header{
+	float: left;
+}
+
+.right-header{
+	vertical-align: right;
+	padding-top: 13px;
+	float: right;
+}
+
+.center-text{
+	text-align: center;
+}
+
+.but_like:hover{
+	background-color: red;
+}
+
+.but_sub:hover{
+	background-color: pink;
+}
+
+.but_signup:hover{
+	background-color: yellow;
+}
+
+.but_login:hover{
+	background-color: green;
+}
+
+.biography {
+	padding-left: 30%;
+	background-color: silver;
+}
+
+.photo{
+	background-color: orange;
+}
+
+#tribute-link{
+	background-color: silver;
+	padding-bottom: 15px;
+}
+
+.quotation{
+	background-color: silver;
+	margin-top: -16px;
+	padding: 15px 0px;
+}
+
+.image {
+	max-width: 25%;
+	display: block;
+	height: auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	vertical-align: middle;
+	padding: 10px;
+	margin: 5px 0px 0px 37%;
+	background-color: #000000;
+	border-radius: 10%;
+}
+#image-caption{
+	padding: 10px 0px;
+}
+
+.trib-caption{
+	font-size: 24px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 22px;
+}
+
+p{
+	font-size: 18px;
+}
+
+.footer{
+	background-color: #00AA00;
+	padding: 10px 0px;
+}
